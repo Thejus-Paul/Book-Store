@@ -1,0 +1,45 @@
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    background: rgba(255,255,255,.4);
+}
+
+nav div {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    background: aquamarine;
+}
+
+.carousel span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 6%;
+}
+
+.carousel #prev {
+    background: linear-gradient(to left, transparent,rgba(0,0,0,0.75));
+}
+
+.carousel #next {
+    background: linear-gradient(to right, transparent,rgba(0,0,0,0.75));
+}
+
+.carousel svg {
+    fill: white;
+}
