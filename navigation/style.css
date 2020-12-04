@@ -21,7 +21,7 @@ nav a {
     display: flex;
     justify-content: space-between;
     height: 90vh;
-    background: aquamarine;
+    background: rgba(0, 0, 0, 0) url("../images/carousel/1.png") repeat scroll 0% 0%;
 }
 
 .carousel span {
