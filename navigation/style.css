@@ -20,8 +20,10 @@ nav a {
 .carousel {
     display: flex;
     justify-content: space-between;
-    height: 90vh;
-    background: rgba(0, 0, 0, 0) url("../images/carousel/1.png") repeat scroll 0% 0%;
+    height: 87vh;
+    background: url("../images/carousel/1.png");
+    background-size: contain;
+    background-position:center;
 }
 
 .carousel span {

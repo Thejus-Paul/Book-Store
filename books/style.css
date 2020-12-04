@@ -1,0 +1,24 @@
+.item {
+    background: white;
+    padding: 1rem 1.25rem 1rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    text-overflow: clip;
+    margin: 0 1rem 0 1rem;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px 2px rgba(0,0,0,0.25);
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.author {
+    font-size: .75rem;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
